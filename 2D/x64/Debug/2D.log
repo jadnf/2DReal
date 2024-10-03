@@ -1,5 +1,2 @@
-﻿  Main.cpp
-  Renderer.cpp
-  Generating Code...
-C:\NeumontWorkspace\Graphics Programming\2D\2D\Source\Renderer.cpp(10,1): warning C4715: 'Renderer::Initialize': not all control paths return a value
+﻿  Framebuffer.cpp
   2D.vcxproj -> C:\NeumontWorkspace\Graphics Programming\2D\x64\Debug\2D.exe

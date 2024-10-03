@@ -1,4 +1,9 @@
 #include "Renderer.h"
+#include "Framebuffer.h"
+
+Renderer::~Renderer()
+{
+}
 
 int Renderer::Initialize()
 {
@@ -25,17 +30,18 @@ int Renderer::CreateWindow()
 	}
 
 	// create renderer
-	SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, 0);
-
-	while (true)
-	{
-		// clear screen
-		SDL_SetRenderDrawColor(renderer, 0, 0, 0, 0);
-		SDL_RenderClear(renderer);
-
-		// show screen
-		SDL_RenderPresent(renderer);
-	}
+	m_renderer = SDL_CreateRenderer(window, -1, 0);
 
 	return 0;
 }
+
+void Renderer::CopyFramebuffer(const Framebuffer& framebuffer)
+{
+	SDL_RenderCopy(m_renderer, framebuffer.m_texture, NULL, NULL);
+}
+
+void Renderer::operator=(const Framebuffer& framebuffer)
+{
+	SDL_RenderCopy(m_renderer, framebuffer.m_texture, NULL, NULL);
+}
+
