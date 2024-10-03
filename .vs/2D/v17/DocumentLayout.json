@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Framebuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Framebuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Framebuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Framebuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -30,30 +30,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Framebuffer.cpp",
               "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Framebuffer.cpp",
               "RelativeDocumentMoniker": "2D\\Source\\Framebuffer.cpp",
               "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Framebuffer.cpp",
               "RelativeToolTip": "2D\\Source\\Framebuffer.cpp",
-              "ViewState": "AQIAABkAAAAAAAAAAAAmwCcAAAAGAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAkwEAAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-02T16:43:48.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Framebuffer.h",
               "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Framebuffer.h",
               "RelativeDocumentMoniker": "2D\\Source\\Framebuffer.h",
               "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Framebuffer.h",
               "RelativeToolTip": "2D\\Source\\Framebuffer.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-02T16:42:50.072Z",
               "EditorCaption": ""
@@ -66,7 +66,7 @@
               "RelativeDocumentMoniker": "2D\\Source\\Renderer.cpp",
               "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Renderer.cpp",
               "RelativeToolTip": "2D\\Source\\Renderer.cpp",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAAQAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-01T18:29:31.278Z",
               "EditorCaption": ""
@@ -86,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Main.cpp",
               "RelativeDocumentMoniker": "2D\\Source\\Main.cpp",
               "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Main.cpp",
               "RelativeToolTip": "2D\\Source\\Main.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAA6AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-01T17:07:45.425Z",
               "EditorCaption": ""
