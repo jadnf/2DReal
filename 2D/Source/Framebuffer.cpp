@@ -54,36 +54,42 @@ void Framebuffer::DrawRect(int x, int y, int w, int h, const color_t& color)
 
 }
 
+
 void Framebuffer::DrawLineSlope(int x1, int y1, int x2, int y2, const color_t& color)
 {
-	int dx = x2 - x1; //run
-	int dy = y2 - y1; //rise
+	int dx = x2 - x1;
+	int dy = y2 - y1;
 
-	// y = mx + b
-	// m = rise / run
-
-	if (dx == 0) {
-		if (y1 > y2) std::swap(y1, y2);
-		for (int y = y1; y < y2; y++) {
-			m_buffer[x1 + y * m_width] = color;
+	if (dx == 0) // Vertical line case
+	{
+		if (y1 > y2) std::swap(y1, y2); // Ensure we iterate upwards
+		for (int y = y1; y <= y2; y++) {
+			m_buffer[x1 + y * m_width] = color; // Vertical line (constant x)
 		}
 	}
-	else {
-		float m = dy / (float)dx;
-		// b = y - (m*x) (y intercept)
-		float b = y1 - (m * x1);
+	else // Non-vertical line
+	{
+		float m = dy / (float)dx; // Slope
+		float b = y1 - (m * x1);  // Y-intercept
 
-		// draw line points
-		if (std::abs(dx) > std::abs(dy)) {
+		if (std::abs(dx) > std::abs(dy)) // Shallow slope
+		{
+			if (x1 > x2) { // Ensure left-to-right drawing
+				std::swap(x1, x2);
+				std::swap(y1, y2);
+			}
 			for (int x = x1; x <= x2; x++) {
-
 				int y = (int)round((m * x) + b);
 				m_buffer[x + y * m_width] = color;
 			}
 		}
-		else {
+		else // Steep slope
+		{
+			if (y1 > y2) { // Ensure bottom-to-top drawing
+				std::swap(x1, x2);
+				std::swap(y1, y2);
+			}
 			for (int y = y1; y <= y2; y++) {
-
 				int x = (int)round((y - b) / m);
 				m_buffer[x + y * m_width] = color;
 			}
@@ -94,22 +100,26 @@ void Framebuffer::DrawLineSlope(int x1, int y1, int x2, int y2, const color_t& c
 void Framebuffer::DrawLine(int x1, int y1, int x2, int y2, const color_t& color)
 {
 	//calculate deltas
+	if (x1 > x2) {
+		std::swap(x1, x2);
+		
+	}
+	if (y1 > y2) {
+		std::swap(y1, y2);
+	}
 	int dx = x2 - x1;
 	int dy = y2 - y1;
 
 	bool steep = std::abs(dy) > std::abs(dx);
 
-	if (steep) {
-		
-	}
+	//if (steep) {
+	//	std::swap(x1, x2);
+	//	std::swap(y1, y2);
+	//}
 
-	if (x1 > x2) {
-		std::swap(x1, x2);
-		std::swap(y1, y2);
-	}
-	//recalculate delatas
-	dx = x2 - x1;
-	dy = std::abs(y2 - y1);
+	////recalculate deltas
+	//dx = x2 - x1;
+	//dy = y2 - y1;
 
 	int error = dx / 2;
 	int ystep = (y1 < y2) ? 1 : -1;
@@ -128,12 +138,12 @@ void Framebuffer::DrawLine(int x1, int y1, int x2, int y2, const color_t& color)
 
 void Framebuffer::DrawTriangle(int x1, int y1, int x2, int y2, int x3, int y3, const color_t& color)
 {
-	DrawLine(x1, y1, x2, y2, color);
-	DrawLine(x2, y2, x3, y3, color);
-	DrawLine(x3, y3, x1, y1, color);
+	DrawLineSlope(x1, y1, x2, y2, color);
+	DrawLineSlope(x2, y2, x3, y3, color);
+	DrawLineSlope(x3, y3, x1, y1, color);
 }
 
-void Framebuffer::DrawCircle(int xc, int yc, int x, int y, const color_t& color)
+void Framebuffer::DrawCirclePoints(int xc, int yc, int x, int y, const color_t& color)
 {
 	DrawPoint(xc + x, yc + y, color);
 	DrawPoint(xc - x, yc + y, color);
@@ -145,11 +155,11 @@ void Framebuffer::DrawCircle(int xc, int yc, int x, int y, const color_t& color)
 	DrawPoint(xc - y, yc - x, color);
 }
 
-void Framebuffer::CircleBres(int xc, int yc, int radius, const color_t& color)
+void Framebuffer::DrawCircle(int xc, int yc, int radius, const color_t& color)
 {
 	int x = 0, y = radius;
 	int d = 3 - 2 * radius;
-	DrawCircle(xc, yc, x, y, color);
+	DrawCirclePoints(xc, yc, x, y, color);
 	while (y >= x) {
 
 		// check for decision parameter
@@ -166,7 +176,7 @@ void Framebuffer::CircleBres(int xc, int yc, int radius, const color_t& color)
 		x++;
 
 		// Draw the circle using the new coordinates
-		DrawCircle(xc, yc, x, y, color);
+		DrawCirclePoints(xc, yc, x, y, color);
 		
 	}
 }
