@@ -14,13 +14,13 @@ int Renderer::Initialize()
 	}
 }
 
-int Renderer::CreateWindow()
+int Renderer::CreateWindow(int w, int h)
 {
 	// create window
 	// returns pointer to window if successful or nullptr if failed
 	SDL_Window* window = SDL_CreateWindow("Game Engine",
 		SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
-		800, 600,
+		w, h,
 		SDL_WINDOW_SHOWN);
 	if (window == nullptr)
 	{

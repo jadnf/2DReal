@@ -10,7 +10,7 @@ public:
 
 	int Initialize();
 
-	int CreateWindow();
+	int CreateWindow(int w, int h);
 
 	void CopyFramebuffer(const class Framebuffer& framebuffer);
 	void operator = (const class Framebuffer& framebuffer);

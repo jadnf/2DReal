@@ -1,5 +1,6 @@
 #include "Framebuffer.h"
 #include "Renderer.h"
+#include "MathUtils.h"
 
 Framebuffer::Framebuffer(const Renderer& renderer, int width, int height)
 {
@@ -53,7 +54,7 @@ void Framebuffer::DrawRect(int x, int y, int w, int h, const color_t& color)
 
 }
 
-void Framebuffer::DrawLine(int x1, int y1, int x2, int y2, const color_t& color)
+void Framebuffer::DrawLineSlope(int x1, int y1, int x2, int y2, const color_t& color)
 {
 	int dx = x2 - x1; //run
 	int dy = y2 - y1; //rise
@@ -88,7 +89,139 @@ void Framebuffer::DrawLine(int x1, int y1, int x2, int y2, const color_t& color)
 			}
 		}
 	}
+}
 
+void Framebuffer::DrawLine(int x1, int y1, int x2, int y2, const color_t& color)
+{
+	//calculate deltas
+	int dx = x2 - x1;
+	int dy = y2 - y1;
+
+	bool steep = std::abs(dy) > std::abs(dx);
+
+	if (steep) {
+		
+	}
+
+	if (x1 > x2) {
+		std::swap(x1, x2);
+		std::swap(y1, y2);
+	}
+	//recalculate delatas
+	dx = x2 - x1;
+	dy = std::abs(y2 - y1);
+
+	int error = dx / 2;
+	int ystep = (y1 < y2) ? 1 : -1;
+
+	//draw line points
+	for (int x = x1, y = y1; x <= x2; x++) {
+		(steep) ? DrawPoint(y, x, color) : DrawPoint(x,y, color);
+		// update error term
+		error -= dy;
+		if (error < 0) {
+			y += ystep;
+			error += dx;
+		}
+	}
+}
+
+void Framebuffer::DrawTriangle(int x1, int y1, int x2, int y2, int x3, int y3, const color_t& color)
+{
+	DrawLine(x1, y1, x2, y2, color);
+	DrawLine(x2, y2, x3, y3, color);
+	DrawLine(x3, y3, x1, y1, color);
+}
+
+void Framebuffer::DrawCircle(int xc, int yc, int x, int y, const color_t& color)
+{
+	DrawPoint(xc + x, yc + y, color);
+	DrawPoint(xc - x, yc + y, color);
+	DrawPoint(xc + x, yc - y, color);
+	DrawPoint(xc - x, yc - y, color);
+	DrawPoint(xc + y, yc + x, color);
+	DrawPoint(xc - y, yc + x, color);
+	DrawPoint(xc + y, yc - x, color);
+	DrawPoint(xc - y, yc - x, color);
+}
+
+void Framebuffer::CircleBres(int xc, int yc, int radius, const color_t& color)
+{
+	int x = 0, y = radius;
+	int d = 3 - 2 * radius;
+	DrawCircle(xc, yc, x, y, color);
+	while (y >= x) {
+
+		// check for decision parameter
+		// and correspondingly 
+		// update d, y
+		if (d > 0) {
+			y--;
+			d = d + 4 * (x - y) + 10;
+		}
+		else
+			d = d + 4 * x + 6;
+
+		// Increment x after updating decision parameter
+		x++;
+
+		// Draw the circle using the new coordinates
+		DrawCircle(xc, yc, x, y, color);
+		
+	}
+}
+
+void Framebuffer::DrawLinearCurve(int x1, int y1, int x2, int y2, const color_t& color)
+{
+	float dt = 1 / 30.0f; 
+	float t1 = 0;
+	for (int i = 0; i < 10; i++) {
+		int sx1 = Lerp(x1, x2, t1);
+		int sy1 = Lerp(y1, y2, t1);
+		
+		float t2 = t1 + dt;
+
+		int sx2 = Lerp(x1, x2, t2);
+		int sy2 = Lerp(y1, y2, t2);
+
+		t1 += dt;
+		DrawLine(sx1, sy1, sx2, sy2, color);
+	}
 	
-	
+}
+
+void Framebuffer::DrawQuadraticCurve(int x1, int y1, int x2, int y2, int x3, int y3, const color_t& color)
+{
+	float dt = 1 / 100.0f;
+	float t1 = 0;
+	for (int i = 0; i < 100; i++) {
+		int sx1, sy1;
+		QuadraticPoint(x1, y1, x2, y2, x3, y3, t1, sx1, sy1);
+		
+		float t2 = t1 + dt;
+		int sx2, sy2;
+		QuadraticPoint(x1, y1, x2, y2, x3, y3, t2, sx2, sy2);
+
+		t1 += dt;
+
+		DrawLine(sx1, sy1, sx2, sy2, color);
+	}
+}
+
+void Framebuffer::DrawCubicCurve(int x1, int y1, int x2, int y2, int x3, int y3, int x4, int y4, const color_t& color)
+{
+	float dt = 1 / 100.0f;
+	float t1 = 0;
+	for (int i = 0; i < 100; i++) {
+		int sx1, sy1;
+		CubicPoint(x1, y1, x2, y2, x3, y3, x4, y4, t1, sx1, sy1);
+
+		float t2 = t1 + dt;
+		int sx2, sy2;
+		CubicPoint(x1, y1, x2, y2, x3, y3, x4, y4, t2, sx2, sy2);
+
+		t1 += dt;
+
+		DrawLine(sx1, sy1, sx2, sy2, color);
+	}
 }
