@@ -19,4 +19,8 @@ public:
 
 	SDL_Renderer* m_renderer{ nullptr };
 private:
+	int m_width{ 0 };
+	int m_height{ 0 };
+	
+	SDL_Window* m_window{ nullptr };
 };
