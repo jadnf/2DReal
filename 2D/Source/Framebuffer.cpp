@@ -33,13 +33,15 @@ void Framebuffer::Clear(const color_t& color)
 
 void Framebuffer::DrawPoint(int x, int y, const color_t& color)
 {
-	if (x > (m_width -1) || x < 0 || y > (m_height - 1) || y < 0) {
-		return;
-	}
-	else {
+	color_t& dest = m_buffer[x + y * m_width];
+	dest = ColorBlend(color, dest);
+}
 
-		m_buffer[x + y * m_width] = color;
-	}
+void Framebuffer::DrawPointClip(int x, int y, const color_t& color)
+{
+	if (x > (m_width - 1) || x < 0 || y >(m_height - 1) || y < 0) return;
+	color_t& dest = m_buffer[x + y * m_width];
+	dest = ColorBlend(color, dest);
 }
 
 void Framebuffer::DrawRect(int x, int y, int w, int h, const color_t& color)
@@ -189,6 +191,7 @@ void Framebuffer::DrawCircle(int xc, int yc, int radius, const color_t& color)
 
 void Framebuffer::DrawImage(int x, int y, const Image& image)
 {
+	
 	if (x + image.m_width < 0 || x >= m_width || y + image.m_height < 0 || y >= m_height) return;
 
 	for (int iy = 0; iy < image.m_height; iy++) {
@@ -199,9 +202,32 @@ void Framebuffer::DrawImage(int x, int y, const Image& image)
 			int sx = x + ix;
 			if (sx < 0 || sx >= m_width) continue;
 
-			color_t color = image.m_buffer[iy * image.m_width + ix];
-			if (color.a == 0) continue;
-			m_buffer[sy * m_width + sx] = color;
+			color_t color = image.m_buffer[(iy * image.m_width) + ix];
+			//if (color.a == 0) continue;
+			DrawPoint(sx, sy, color);
+		}
+	}
+}
+void Framebuffer::DrawImage(int x, int y, float w, float h, const Image& image)
+{
+	int imageWidth = (int)(image.m_width * w);
+	int imageHeight = (int)(image.m_height * h);
+
+	if (x + imageWidth < 0 || x >= m_width || y + imageHeight < 0 || y >= m_height) return;
+
+	
+
+	for (int iy = 0; iy < imageHeight; iy++) {
+		int sy = y + iy;
+
+		if (sy < 0 || sy >= m_height) continue;
+
+		for (int ix = 0; ix < imageWidth; ix++) {
+			int sx = x + ix;
+			if (sx < 0 || sx >= m_width) continue;
+
+			color_t color = image.m_buffer[(sy * imageWidth) + sx];
+			DrawPoint(sx, sy, color);
 		}
 	}
 }

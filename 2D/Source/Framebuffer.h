@@ -1,10 +1,11 @@
 #pragma once
+#include "Color.h"
 #include <SDL.h>
 #include <vector>
 
 class Image;
 
-using color_t = SDL_Color;
+
 
 class Framebuffer
 {
@@ -16,6 +17,7 @@ public:
 	void Clear(const color_t& color);
 
 	void DrawPoint(int x, int y, const color_t& color);
+	void DrawPointClip(int x, int y, const color_t& color);
 	void DrawRect(int x, int y, int w, int h, const color_t& color);
 	void DrawLineSlope(int x1, int y1, int x2, int y2, const color_t& color);
 	void DrawLine(int x1, int y1, int x2, int y2, const color_t& color);
@@ -23,6 +25,7 @@ public:
 	void DrawCirclePoints(int xc, int yc, int x, int y, const color_t& color);
 	void DrawCircle(int xc, int yc, int radius, const color_t& color);
 	void DrawImage(int x, int y, const Image& image);
+	void DrawImage(int x, int y, float w, float h, const Image& image);
 	
 	void DrawLinearCurve(int x1, int y1, int x2, int y2, const color_t& color);
 	void DrawQuadraticCurve(int x1, int y1, int x2, int y2, int x3, int y3, const color_t& color);
