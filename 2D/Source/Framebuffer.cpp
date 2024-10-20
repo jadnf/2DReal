@@ -72,7 +72,7 @@ void Framebuffer::DrawLineSlope(int x1, int y1, int x2, int y2, const color_t& c
 	{
 		if (y1 > y2) std::swap(y1, y2); // Ensure we iterate upwards
 		for (int y = y1; y <= y2; y++) {
-			m_buffer[x1 + y * m_width] = color; // Vertical line (constant x)
+			DrawPointClip(x1, y, color); // Vertical line (constant x)
 		}
 	}
 	else // Non-vertical line
@@ -88,7 +88,7 @@ void Framebuffer::DrawLineSlope(int x1, int y1, int x2, int y2, const color_t& c
 			}
 			for (int x = x1; x <= x2; x++) {
 				int y = (int)round((m * x) + b);
-				m_buffer[x + y * m_width] = color;
+				DrawPointClip(x, y, color);
 			}
 		}
 		else // Steep slope
@@ -99,7 +99,7 @@ void Framebuffer::DrawLineSlope(int x1, int y1, int x2, int y2, const color_t& c
 			}
 			for (int y = y1; y <= y2; y++) {
 				int x = (int)round((y - b) / m);
-				m_buffer[x + y * m_width] = color;
+				DrawPointClip(x, y, color);
 			}
 		}
 	}
@@ -134,7 +134,7 @@ void Framebuffer::DrawLine(int x1, int y1, int x2, int y2, const color_t& color)
 
 	//draw line points
 	for (int x = x1, y = y1; x <= x2; x++) {
-		(steep) ? DrawPoint(y, x, color) : DrawPoint(x,y, color);
+		(steep) ? DrawPointClip(y, x, color) : DrawPointClip(x,y, color);
 		// update error term
 		error -= dy;
 		if (error < 0) {
@@ -191,9 +191,6 @@ void Framebuffer::DrawCircle(int xc, int yc, int radius, const color_t& color)
 
 void Framebuffer::DrawImage(int x, int y, const Image& image)
 {
-	
-	if (x + image.m_width < 0 || x >= m_width || y + image.m_height < 0 || y >= m_height) return;
-
 	for (int iy = 0; iy < image.m_height; iy++) {
 		int sy = y + iy;
 		if (sy < 0 || sy >= m_height) continue;
@@ -203,31 +200,21 @@ void Framebuffer::DrawImage(int x, int y, const Image& image)
 			if (sx < 0 || sx >= m_width) continue;
 
 			color_t color = image.m_buffer[(iy * image.m_width) + ix];
-			//if (color.a == 0) continue;
-			DrawPoint(sx, sy, color);
+			DrawPointClip(sx, sy, color);
 		}
 	}
 }
 void Framebuffer::DrawImage(int x, int y, float w, float h, const Image& image)
 {
-	int imageWidth = (int)(image.m_width * w);
-	int imageHeight = (int)(image.m_height * h);
-
-	if (x + imageWidth < 0 || x >= m_width || y + imageHeight < 0 || y >= m_height) return;
-
-	
-
-	for (int iy = 0; iy < imageHeight; iy++) {
-		int sy = y + iy;
-
+	for (int iy = 0; iy < image.m_height; iy++) {
+		int sy = y + (int)(iy * h);
 		if (sy < 0 || sy >= m_height) continue;
 
-		for (int ix = 0; ix < imageWidth; ix++) {
-			int sx = x + ix;
+		for (int ix = 0; ix < image.m_width; ix++) {
+			int sx = x + (int)(ix * w);
 			if (sx < 0 || sx >= m_width) continue;
-
-			color_t color = image.m_buffer[(sy * imageWidth) + sx];
-			DrawPoint(sx, sy, color);
+			color_t color = image.m_buffer[(iy * image.m_width) + ix];
+			DrawPointClip(sx, sy, color);
 		}
 	}
 }

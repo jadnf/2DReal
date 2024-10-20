@@ -14,6 +14,8 @@ public:
 
 	void CopyFramebuffer(const class Framebuffer& framebuffer);
 	void operator = (const class Framebuffer& framebuffer);
+	const int& GetHeight() { return m_height; }
+	const int& GetWidth() { return m_width; }
 
 
 
