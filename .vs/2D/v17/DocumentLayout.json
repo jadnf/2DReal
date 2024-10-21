@@ -7,16 +7,40 @@
       "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Framebuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Framebuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Color.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Color.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\PostProcess.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\PostProcess.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\ETime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\ETime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -25,14 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Color.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Color.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -45,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\NeumontWorkspace\\Graphics Programming\\2D\\ThirdParty\\stb\\stb_image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ThirdParty\\stb\\stb_image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,15 +78,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "stb_image.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\ThirdParty\\stb\\stb_image.h",
-              "RelativeDocumentMoniker": "ThirdParty\\stb\\stb_image.h",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\ThirdParty\\stb\\stb_image.h",
-              "RelativeToolTip": "ThirdParty\\stb\\stb_image.h",
+              "DocumentIndex": 9,
+              "Title": "ETime.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\ETime.cpp",
+              "RelativeDocumentMoniker": "2D\\Source\\ETime.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\ETime.cpp",
+              "RelativeToolTip": "2D\\Source\\ETime.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-17T17:15:01.999Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-21T15:42:29.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Input.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Input.cpp",
+              "RelativeDocumentMoniker": "2D\\Source\\Input.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Input.cpp",
+              "RelativeToolTip": "2D\\Source\\Input.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-21T15:42:28.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Framebuffer.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Framebuffer.cpp",
+              "RelativeDocumentMoniker": "2D\\Source\\Framebuffer.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Framebuffer.cpp",
+              "RelativeToolTip": "2D\\Source\\Framebuffer.cpp",
+              "ViewState": "AQIAABsAAAAAAAAAAAAtwCoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-21T15:38:49.907Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -84,26 +123,14 @@
               "RelativeDocumentMoniker": "2D\\Source\\Model.cpp",
               "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Model.cpp",
               "RelativeToolTip": "2D\\Source\\Model.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAXAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-15T17:18:18.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Color.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Color.cpp",
-              "RelativeDocumentMoniker": "2D\\Source\\Color.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Color.cpp",
-              "RelativeToolTip": "2D\\Source\\Color.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-18T19:31:01.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PostProcess.h",
               "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\PostProcess.h",
               "RelativeDocumentMoniker": "2D\\Source\\PostProcess.h",
@@ -116,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Image.h",
               "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Image.h",
               "RelativeDocumentMoniker": "2D\\Source\\Image.h",
@@ -124,25 +151,24 @@
               "RelativeToolTip": "2D\\Source\\Image.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-17T17:14:59.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T17:14:59.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Model.h",
               "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Model.h",
               "RelativeDocumentMoniker": "2D\\Source\\Model.h",
               "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Model.h",
               "RelativeToolTip": "2D\\Source\\Model.h",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAANAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-17T17:14:16.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Camera.cpp",
               "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Camera.cpp",
               "RelativeDocumentMoniker": "2D\\Source\\Camera.cpp",
@@ -150,11 +176,12 @@
               "RelativeToolTip": "2D\\Source\\Camera.cpp",
               "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-17T16:56:11.23Z"
+              "WhenOpened": "2024-10-17T16:56:11.23Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Input.h",
               "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Input.h",
               "RelativeDocumentMoniker": "2D\\Source\\Input.h",
@@ -166,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Camera.h",
               "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Camera.h",
               "RelativeDocumentMoniker": "2D\\Source\\Camera.h",
@@ -178,20 +205,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Color.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Color.cpp",
+              "RelativeDocumentMoniker": "2D\\Source\\Color.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Color.cpp",
+              "RelativeToolTip": "2D\\Source\\Color.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAtwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-18T19:31:01.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Image.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Image.cpp",
+              "RelativeDocumentMoniker": "2D\\Source\\Image.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Image.cpp",
+              "RelativeToolTip": "2D\\Source\\Image.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-21T15:42:33.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Main.cpp",
               "RelativeDocumentMoniker": "2D\\Source\\Main.cpp",
               "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Main.cpp",
               "RelativeToolTip": "2D\\Source\\Main.cpp",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACsAAAABAAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGkAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-01T17:07:45.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Color.h",
               "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Color.h",
               "RelativeDocumentMoniker": "2D\\Source\\Color.h",
@@ -203,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Renderer.h",
               "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Renderer.h",
               "RelativeDocumentMoniker": "2D\\Source\\Renderer.h",
