@@ -3,6 +3,7 @@
 #include <iostream>
 
 
+
 class Renderer {
 public:
 	Renderer() = default;
@@ -10,7 +11,7 @@ public:
 
 	int Initialize();
 
-	int CreateWindow(int w, int h);
+	int CreateWindow(std::string name, int w, int h);
 
 	void CopyFramebuffer(const class Framebuffer& framebuffer);
 	void operator = (const class Framebuffer& framebuffer);

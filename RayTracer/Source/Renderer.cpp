@@ -1,5 +1,6 @@
 #include "Renderer.h"
 #include "Framebuffer.h"
+#include <string>
 
 Renderer::~Renderer()
 {
@@ -15,11 +16,13 @@ int Renderer::Initialize()
 	return true;
 }
 
-int Renderer::CreateWindow(int w, int h)
+int Renderer::CreateWindow(std::string name, int w, int h)
 {
+	m_width = w;
+	m_height = h;
 	// create window
 	// returns pointer to window if successful or nullptr if failed
-	m_window = SDL_CreateWindow("Game Engine",
+	m_window = SDL_CreateWindow(name.c_str(),
 		SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
 		w, h,
 		SDL_WINDOW_SHOWN);

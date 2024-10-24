@@ -206,11 +206,11 @@ void Framebuffer::DrawImage(int x, int y, const Image& image)
 }
 void Framebuffer::DrawImage(int x, int y, float w, float h, const Image& image)
 {
-	for (int iy = 0; iy < image.m_height; iy++) {
+	for (int iy = 0; iy < image.m_height * h; iy++) {
 		int sy = y + (int)(iy * h);
 		if (sy < 0 || sy >= m_height) continue;
 
-		for (int ix = 0; ix < image.m_width; ix++) {
+		for (int ix = 0; ix < image.m_width * w; ix++) {
 			int sx = x + (int)(ix * w);
 			if (sx < 0 || sx >= m_width) continue;
 			color_t color = image.m_buffer[(iy * image.m_width) + ix];

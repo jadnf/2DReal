@@ -12,6 +12,7 @@
     <ClCompile Include="Source\Model.cpp" />
     <ClCompile Include="Source\PostProcess.cpp" />
     <ClCompile Include="Source\Renderer.cpp" />
+    <ClCompile Include="Source\Tracer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Actor.h">
@@ -54,6 +55,9 @@
       <Filter>Header</Filter>
     </ClInclude>
     <ClInclude Include="Source\Ray.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tracer.h">
       <Filter>Header</Filter>
     </ClInclude>
   </ItemGroup>
