@@ -11,6 +11,9 @@
 #include "Actor.h"
 #include "Random.h"
 #include "Tracer.h"
+#include "Material.h"
+
+#include "Scene.h"
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -32,7 +35,12 @@ int main(int argc, char* argv[])
 	Camera camera{ 70.0f, renderer.GetWidth() / (float)(renderer.GetHeight())};
 	camera.SetView({ 0,0,-20 }, { 0,0,0 });
 
-	Tracer tracer;
+	Scene scene;
+
+	std::shared_ptr<Material> material = std::make_shared<Material>(color3_t{ 1,0,0 });
+	auto object = std::make_unique<Sphere>(glm::vec3{ 0,0,40 }, 2.0f, material);
+
+	scene.AddObject(std::move(object));
 	
 	bool quit = false;
 	while (!quit)
@@ -52,8 +60,7 @@ int main(int argc, char* argv[])
 		}
 		framebuffer.Clear(ColorConvert(color4_t{ 0,0.25f,0,255 }));
 
-		tracer.Render(framebuffer, camera);
-
+		scene.Render(framebuffer, camera);
 		framebuffer.Update();
 
 		renderer = framebuffer;

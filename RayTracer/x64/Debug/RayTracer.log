@@ -1,7 +1,6 @@
-﻿  Camera.cpp
-C:\NeumontWorkspace\Graphics Programming\2D\RayTracer\Source\Camera.cpp(31,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  Main.cpp
-  Model.cpp
+﻿  Main.cpp
+  Scene.cpp
+  Sphere.cpp
   Tracer.cpp
   Generating Code...
   RayTracer.vcxproj -> C:\NeumontWorkspace\Graphics Programming\2D\x64\Debug\RayTracer.exe

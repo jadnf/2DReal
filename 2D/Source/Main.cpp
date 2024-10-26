@@ -52,16 +52,24 @@ int main(int argc, char* argv[])
 	//vertices_t vertices = { {-5,5,0}, {5,5, 0}, {-5,-5,0} };
 	//Model model(vertices, {0, 255,0, 255});
 	std::shared_ptr<Model> model = std::make_shared<Model>();
+	auto model2 = std::make_shared<Model>();
+	model2->Load("cube.obj");
+	model2->SetColor({ 255,255,0,155 });
 	model->Load("sphere.obj");
 	model->SetColor({ 0, 255, 0, 255 });
 
+	
+
 	std::vector<std::unique_ptr<Actor>> actors;
 
-	for (int i = 0; i < 2; i++) {
+	for (int i = 0; i < 6; i++) {
 		Transform transform{ {randomf(-10.0f, 10.0f),randomf(-10.0f),0}, glm::vec3{0,randomf(-10.0f),45}, glm::vec3{3}};
 		std::unique_ptr<Actor> actor = std::make_unique<Actor>(transform, model);
+		std::unique_ptr<Actor> actor2 = std::make_unique<Actor>(transform, model2);
 		actor->SetColor(color_t{ (uint8_t)random(256), (uint8_t)random(256), (uint8_t)random(256) });
+		actor2->SetColor(color_t{ (uint8_t)random(256), (uint8_t)random(256), (uint8_t)random(256) });
 		actors.push_back(std::move(actor));
+		actors.push_back(std::move(actor2));
 	}
 
 	/*Transform transform{ {0,0,0}, glm::vec3{0,0,45}, glm::vec3{3} };
@@ -96,7 +104,7 @@ int main(int argc, char* argv[])
 		
 
 		SetBlendMode(BlendMode::Normal);
-		//framebuffer.DrawImage(100, 100, imageAlpha);
+		framebuffer.DrawImage(100, 100, imageAlpha);
 		//SetBlendMode(BlendMode::Multiply);
 		//framebuffer.DrawImage(100, 100, 1.5, 1.5, image);
 		//framebuffer.DrawImage(100, 100, image);
@@ -138,6 +146,7 @@ int main(int argc, char* argv[])
 		for (auto& actor : actors) {
 			actor->Draw(framebuffer, camera);
 		}
+		
 		
 
 		//transform.rotation.z += 90 * time.GetDeltaTime();
