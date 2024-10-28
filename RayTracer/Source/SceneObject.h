@@ -9,6 +9,7 @@ public:
 
 	virtual bool Hit(const ray_t& ray) = 0;
 
+
 	std::weak_ptr<class Material> GetMaterial() { return m_material; }
 
 protected:

@@ -38,12 +38,12 @@ int main(int argc, char* argv[])
 	Scene scene;
 
 	std::shared_ptr<Material> material = std::make_shared<Material>(color3_t{ 1,0,0 });
-	auto object = std::make_unique<Sphere>(glm::vec3{ 0,0,0 }, 2.0f, material);
+	auto object = std::make_unique<Sphere>(glm::vec3{ 0,0,10 }, 2.0f, material);
 	std::shared_ptr<Material> material2 = std::make_shared<Material>(color3_t{ 0,2,0 });
 	auto plane = std::make_unique<Plane>(glm::vec3{ 0, 0, 0 }, glm::vec3{ 0, -1, 0 }, material2);
-	scene.AddObject(std::move(plane));
 
 	scene.AddObject(std::move(object));
+	scene.AddObject(std::move(plane));
 	
 	bool quit = false;
 	while (!quit)
