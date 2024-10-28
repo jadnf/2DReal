@@ -9,6 +9,14 @@ inline int random(int min, int max) { return min + random(max - min); }
 inline float randomf() { return rand() / (float)RAND_MAX; } // 0-1
 inline float randomf(float max) { return max * randomf(); }
 inline float randomf(float min, float max) { return min + randomf(max - min); }
+inline glm::vec3 random(const glm::vec3& v1, const glm::vec3& v2)
+{
+	return glm::vec3{
+		random((int)v1.x, (int)v2.x),
+		random((int)v1.y, (int)v2.y),
+		random((int)v1.z, (int)v2.z)
+	};
+}
 
 inline glm::vec2 randomOnUnitCircle() 
 {

@@ -37,12 +37,21 @@ int main(int argc, char* argv[])
 
 	Scene scene;
 
-	std::shared_ptr<Material> material = std::make_shared<Material>(color3_t{ 1,0,0 });
-	auto object = std::make_unique<Sphere>(glm::vec3{ 0,0,10 }, 2.0f, material);
-	std::shared_ptr<Material> material2 = std::make_shared<Material>(color3_t{ 0,2,0 });
-	auto plane = std::make_unique<Plane>(glm::vec3{ 0, 0, 0 }, glm::vec3{ 0, -1, 0 }, material2);
+	std::shared_ptr<Material> red = std::make_shared<Material>(color3_t{ 1,0,0 });
+	std::shared_ptr<Material> green = std::make_shared<Material>(color3_t{ 0,1,0 });
+	std::shared_ptr<Material> gray = std::make_shared<Material>(color3_t{ 0.5f });
+	std::shared_ptr<Material> blue = std::make_shared<Material>(color3_t{ 0, 0, 1 });
+	std::vector<std::shared_ptr<Material>> materials;
+	materials.push_back(red);
+	materials.push_back(green);
+	//materials.push_back(gray);
+	materials.push_back(blue);
 
-	scene.AddObject(std::move(object));
+	for (int i = 0; i < 10; i++) {
+		auto object = std::make_unique<Sphere>(random(glm::vec3{ -10 }, glm::vec3{ 10 }), randomf(0.2f, 3.0f), materials[random(0, materials.size() - 1)]);
+		scene.AddObject(std::move(object));
+	}
+	auto plane = std::make_unique<Plane>(glm::vec3{ 0, -3, 0 }, glm::vec3{ 0, -1, 0 }, materials[1]);
 	scene.AddObject(std::move(plane));
 	
 	bool quit = false;
