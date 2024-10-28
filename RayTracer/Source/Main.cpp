@@ -12,7 +12,7 @@
 #include "Random.h"
 #include "Tracer.h"
 #include "Material.h"
-
+#include "Plane.h"
 #include "Scene.h"
 
 #include <glm/glm.hpp>
@@ -26,7 +26,7 @@ int main(int argc, char* argv[])
 
 	Renderer renderer;
 	renderer.Initialize();
-	renderer.CreateWindow("rayrace", 800, 600);
+	renderer.CreateWindow("raytrace", 800, 600);
 
 	SetBlendMode(BlendMode::Normal);
 	
@@ -38,7 +38,10 @@ int main(int argc, char* argv[])
 	Scene scene;
 
 	std::shared_ptr<Material> material = std::make_shared<Material>(color3_t{ 1,0,0 });
-	auto object = std::make_unique<Sphere>(glm::vec3{ 0,0,40 }, 2.0f, material);
+	auto object = std::make_unique<Sphere>(glm::vec3{ 0,0,0 }, 2.0f, material);
+	std::shared_ptr<Material> material2 = std::make_shared<Material>(color3_t{ 0,2,0 });
+	auto plane = std::make_unique<Plane>(glm::vec3{ 0, 0, 0 }, glm::vec3{ 0, -1, 0 }, material2);
+	scene.AddObject(std::move(plane));
 
 	scene.AddObject(std::move(object));
 	
@@ -58,7 +61,7 @@ int main(int argc, char* argv[])
 				quit = true;
 			}
 		}
-		framebuffer.Clear(ColorConvert(color4_t{ 0,0.25f,0,255 }));
+		//framebuffer.Clear(ColorConvert(color4_t{ 0,0.25f,0,255 }));
 
 		scene.Render(framebuffer, camera);
 		framebuffer.Update();

@@ -42,3 +42,7 @@ inline void CubicPoint(int x1, int y1, int x2, int y2, int x3, int y3, int x4, i
 	x = (int)((a * x1) + (b * x2) + (c * x3) + (d * x4));
 	y = (int)((a * y1) + (b * y2) + (c * y3) + (d * y4));
 }
+inline bool approximately(float value1, float value2)
+{
+	return ((value1 - value2) < FLT_EPSILON);
+}

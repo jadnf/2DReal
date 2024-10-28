@@ -3,36 +3,12 @@
   "WorkspaceRootPath": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\SceneObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\SceneObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Sphere.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Sphere.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Tracer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Tracer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Ray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Ray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Sphere.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -43,44 +19,80 @@
       "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Framebuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Framebuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Tracer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Tracer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\MathUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\MathUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\SceneObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\SceneObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Ray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Ray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Color.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Color.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Framebuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Framebuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Plane.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Plane.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Plane.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Plane.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Material.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Material.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\MathUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\MathUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Sphere.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Sphere.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\PostProcess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\PostProcess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Random.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Random.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Framebuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Framebuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Framebuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Framebuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\PostProcess.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\PostProcess.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,24 +102,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 22,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Main.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Main.cpp",
-              "RelativeDocumentMoniker": "2D\\Source\\Main.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Main.cpp",
-              "RelativeToolTip": "2D\\Source\\Main.cpp",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAAAGoAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-26T01:55:50.812Z",
+              "DocumentIndex": 3,
+              "Title": "Scene.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Scene.h",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\Scene.h",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Scene.h",
+              "RelativeToolTip": "RayTracer\\Source\\Scene.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-28T00:01:51.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "Framebuffer.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Framebuffer.cpp",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\Framebuffer.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Framebuffer.cpp",
+              "RelativeToolTip": "RayTracer\\Source\\Framebuffer.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-28T00:01:51.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Color.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Color.cpp",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\Color.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Color.cpp",
+              "RelativeToolTip": "RayTracer\\Source\\Color.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-28T00:00:20.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Framebuffer.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Framebuffer.h",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\Framebuffer.h",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Framebuffer.h",
+              "RelativeToolTip": "RayTracer\\Source\\Framebuffer.h",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-27T23:58:27.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Color.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Color.h",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\Color.h",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Color.h",
+              "RelativeToolTip": "RayTracer\\Source\\Color.h",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-27T23:55:11.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Material.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Material.h",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\Material.h",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Material.h",
+              "RelativeToolTip": "RayTracer\\Source\\Material.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-27T23:49:59.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Camera.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Camera.h",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\Camera.h",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Camera.h",
+              "RelativeToolTip": "RayTracer\\Source\\Camera.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-27T23:47:29.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ray.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Ray.h",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\Ray.h",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Ray.h",
+              "RelativeToolTip": "RayTracer\\Source\\Ray.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-27T23:46:50.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Camera.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Camera.cpp",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\Camera.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Camera.cpp",
+              "RelativeToolTip": "RayTracer\\Source\\Camera.cpp",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-27T23:38:22.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Input.cpp",
               "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Input.cpp",
               "RelativeDocumentMoniker": "RayTracer\\Source\\Input.cpp",
@@ -115,224 +231,174 @@
               "RelativeToolTip": "RayTracer\\Source\\Input.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-24T17:52:56.626Z"
+              "WhenOpened": "2024-10-27T21:56:13.545Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Scene.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Scene.h",
-              "RelativeDocumentMoniker": "RayTracer\\Source\\Scene.h",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Scene.h",
-              "RelativeToolTip": "RayTracer\\Source\\Scene.h",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-24T16:40:52.724Z"
+              "DocumentIndex": 5,
+              "Title": "Image.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Image.cpp",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\Image.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Image.cpp",
+              "RelativeToolTip": "RayTracer\\Source\\Image.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-27T21:56:12.864Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "Sphere.cpp",
               "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Sphere.cpp",
               "RelativeDocumentMoniker": "RayTracer\\Source\\Sphere.cpp",
               "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Sphere.cpp",
               "RelativeToolTip": "RayTracer\\Source\\Sphere.cpp",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAwwBkAAAAaAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-24T17:36:06.733Z"
+              "WhenOpened": "2024-10-27T21:56:12.196Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SceneObject.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\SceneObject.h",
-              "RelativeDocumentMoniker": "RayTracer\\Source\\SceneObject.h",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\SceneObject.h",
-              "RelativeToolTip": "RayTracer\\Source\\SceneObject.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-24T17:31:25.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Scene.cpp",
               "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Scene.cpp",
               "RelativeDocumentMoniker": "RayTracer\\Source\\Scene.cpp",
               "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Scene.cpp",
               "RelativeToolTip": "RayTracer\\Source\\Scene.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-24T17:02:21.435Z"
+              "WhenOpened": "2024-10-27T21:56:11.602Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Ray.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Ray.h",
-              "RelativeDocumentMoniker": "RayTracer\\Source\\Ray.h",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Ray.h",
-              "RelativeToolTip": "RayTracer\\Source\\Ray.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAoAAAA",
+              "DocumentIndex": 20,
+              "Title": "PostProcess.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\PostProcess.cpp",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\PostProcess.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\PostProcess.cpp",
+              "RelativeToolTip": "RayTracer\\Source\\PostProcess.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-27T21:56:09.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Plane.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Plane.cpp",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\Plane.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Plane.cpp",
+              "RelativeToolTip": "RayTracer\\Source\\Plane.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-27T21:51:15.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Model.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Model.h",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\Model.h",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Model.h",
+              "RelativeToolTip": "RayTracer\\Source\\Model.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-24T16:43:57.669Z"
+              "WhenOpened": "2024-10-27T21:50:42.291Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 21,
+              "Title": "Random.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Random.h",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\Random.h",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Random.h",
+              "RelativeToolTip": "RayTracer\\Source\\Random.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-27T21:48:56.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PostProcess.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\PostProcess.h",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\PostProcess.h",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\PostProcess.h",
+              "RelativeToolTip": "RayTracer\\Source\\PostProcess.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-27T21:48:38.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Sphere.h",
               "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Sphere.h",
               "RelativeDocumentMoniker": "RayTracer\\Source\\Sphere.h",
               "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Sphere.h",
               "RelativeToolTip": "RayTracer\\Source\\Sphere.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-24T16:42:50.315Z"
+              "WhenOpened": "2024-10-27T21:48:36.712Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Tracer.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Tracer.cpp",
-              "RelativeDocumentMoniker": "RayTracer\\Source\\Tracer.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Tracer.cpp",
-              "RelativeToolTip": "RayTracer\\Source\\Tracer.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T17:35:18.288Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Tracer.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Tracer.h",
-              "RelativeDocumentMoniker": "RayTracer\\Source\\Tracer.h",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Tracer.h",
-              "RelativeToolTip": "RayTracer\\Source\\Tracer.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
+              "DocumentIndex": 6,
+              "Title": "SceneObject.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\SceneObject.h",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\SceneObject.h",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\SceneObject.h",
+              "RelativeToolTip": "RayTracer\\Source\\SceneObject.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-23T17:33:58.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MathUtils.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\MathUtils.h",
-              "RelativeDocumentMoniker": "RayTracer\\Source\\MathUtils.h",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\MathUtils.h",
-              "RelativeToolTip": "RayTracer\\Source\\MathUtils.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-23T17:04:41.904Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Camera.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Camera.cpp",
-              "RelativeDocumentMoniker": "RayTracer\\Source\\Camera.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Camera.cpp",
-              "RelativeToolTip": "RayTracer\\Source\\Camera.cpp",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACQAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T16:56:04.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Camera.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Camera.h",
-              "RelativeDocumentMoniker": "RayTracer\\Source\\Camera.h",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Camera.h",
-              "RelativeToolTip": "RayTracer\\Source\\Camera.h",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAwAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-23T16:55:32.046Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Renderer.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Renderer.h",
-              "RelativeDocumentMoniker": "RayTracer\\Source\\Renderer.h",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Renderer.h",
-              "RelativeToolTip": "RayTracer\\Source\\Renderer.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-23T16:53:23.426Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Renderer.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Renderer.cpp",
-              "RelativeDocumentMoniker": "RayTracer\\Source\\Renderer.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Renderer.cpp",
-              "RelativeToolTip": "RayTracer\\Source\\Renderer.cpp",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T16:51:36.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Main.cpp",
-              "RelativeDocumentMoniker": "RayTracer\\Source\\Main.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Main.cpp",
-              "RelativeToolTip": "RayTracer\\Source\\Main.cpp",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAACgAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T16:43:08.284Z",
+              "WhenOpened": "2024-10-27T21:48:27.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Color.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Color.h",
-              "RelativeDocumentMoniker": "RayTracer\\Source\\Color.h",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Color.h",
-              "RelativeToolTip": "RayTracer\\Source\\Color.h",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAAdAAAA",
+              "Title": "Plane.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Plane.h",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\Plane.h",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Plane.h",
+              "RelativeToolTip": "RayTracer\\Source\\Plane.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-23T16:32:09.184Z"
+              "WhenOpened": "2024-10-27T21:45:27.619Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Model.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Model.cpp",
-              "RelativeDocumentMoniker": "RayTracer\\Source\\Model.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Model.cpp",
-              "RelativeToolTip": "RayTracer\\Source\\Model.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T16:56:25.653Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Framebuffer.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Framebuffer.h",
-              "RelativeDocumentMoniker": "RayTracer\\Source\\Framebuffer.h",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Framebuffer.h",
-              "RelativeToolTip": "RayTracer\\Source\\Framebuffer.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAgAAAA",
+              "Title": "MathUtils.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\MathUtils.h",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\MathUtils.h",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\MathUtils.h",
+              "RelativeToolTip": "RayTracer\\Source\\MathUtils.h",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-23T16:49:25.779Z"
+              "WhenOpened": "2024-10-27T21:43:03.124Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Framebuffer.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Framebuffer.cpp",
-              "RelativeDocumentMoniker": "RayTracer\\Source\\Framebuffer.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Framebuffer.cpp",
-              "RelativeToolTip": "RayTracer\\Source\\Framebuffer.cpp",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAAyAAAA",
+              "DocumentIndex": 0,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Main.cpp",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\Main.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Main.cpp",
+              "RelativeToolTip": "RayTracer\\Source\\Main.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACcAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T16:49:08.536Z"
+              "WhenOpened": "2024-10-27T21:41:20.288Z",
+              "EditorCaption": ""
             }
           ]
         }

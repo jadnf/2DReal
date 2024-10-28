@@ -1,6 +1,2 @@
 ﻿  Main.cpp
-  Scene.cpp
-  Sphere.cpp
-  Tracer.cpp
-  Generating Code...
   RayTracer.vcxproj -> C:\NeumontWorkspace\Graphics Programming\2D\x64\Debug\RayTracer.exe
