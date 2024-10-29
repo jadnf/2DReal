@@ -46,6 +46,9 @@
     <ClCompile Include="Source\Plane.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Material.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Actor.h">

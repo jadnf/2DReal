@@ -1,3 +1,2 @@
 ﻿  Main.cpp
-C:\NeumontWorkspace\Graphics Programming\2D\RayTracer\Source\Main.cpp(51,143): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   RayTracer.vcxproj -> C:\NeumontWorkspace\Graphics Programming\2D\x64\Debug\RayTracer.exe

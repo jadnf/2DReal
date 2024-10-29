@@ -10,6 +10,10 @@ template<typename T>
 inline T Clamp(const T& value, const T& min, const T& max) {
 	return (value < min) ? min : (value > max) ? max : value;
 }
+inline glm::vec3 Reflect(const glm::vec3& i, const glm::vec3& n)
+{
+	return glm::reflect(i, n);
+}
 
 inline glm::vec3 Cross(const glm::vec3& v1, const glm::vec3& v2) {
 	glm::vec3 result;
@@ -19,6 +23,10 @@ inline glm::vec3 Cross(const glm::vec3& v1, const glm::vec3& v2) {
 
 	return result;
 }
+
+//inline float Dot(const glm::vec3& v1, const glm::vec3& v2) {
+//	return v1.x * v2.x + v1.y * v2.y + v1.z * v2.z;
+//}
 
 inline void QuadraticPoint(int x1, int y1, int x2, int y2, int x3, int y3, float t, int& x, int& y) {
 	float one_minus_t = 1 - t;
@@ -42,7 +50,7 @@ inline void CubicPoint(int x1, int y1, int x2, int y2, int x3, int y3, int x4, i
 	x = (int)((a * x1) + (b * x2) + (c * x3) + (d * x4));
 	y = (int)((a * y1) + (b * y2) + (c * y3) + (d * y4));
 }
-inline bool approximately(float value1, float value2)
+inline bool Approximately(float value1, float value2)
 {
-	return ((value1 - value2) < FLT_EPSILON);
+	return (std::fabs(value1 - value2) < FLT_EPSILON);
 }

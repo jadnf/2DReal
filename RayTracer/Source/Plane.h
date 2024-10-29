@@ -13,7 +13,7 @@ public:
 	{
 	}
 
-	bool Hit(const ray_t& ray) override;
+	bool Hit(const ray_t& ray, raycastHit_t& raycastHit, float minDistance, float maxDistance) override;
 
 private:
 	glm::vec3 m_center;
