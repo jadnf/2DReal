@@ -38,10 +38,11 @@ int main(int argc, char* argv[])
 
 	Scene scene;
 
-	std::shared_ptr<Material> red   = std::make_shared<Lambertian>(color3_t{ 1,0,0 });
-	std::shared_ptr<Material> green = std::make_shared<Metal>(color3_t{ 0,1,0 }, 0.3f);
-	std::shared_ptr<Material> gray  = std::make_shared<Lambertian>(color3_t{ 0.5f });
-	std::shared_ptr<Material> blue  = std::make_shared<Metal>(color3_t{ 0, 0, 1 },0.0f);
+	std::shared_ptr<Material> red   = std::make_shared<Dielectric>(color3_t{ 1,0.05f ,0.2f }, 1.5f);
+	std::shared_ptr<Material> green = std::make_shared<Dielectric>(color3_t{ 0,1,0 }, 2.3f);
+	std::shared_ptr<Material> gray  = std::make_shared<Metal>(color3_t{ 0.5f }, 0.5f);
+	std::shared_ptr<Material> blue  = std::make_shared<Dielectric>(color3_t{ 0.5f, 0.5f, 1 },1.333f);
+	std::shared_ptr<Material> white  = std::make_shared<Dielectric>(color3_t{ 1, 1, 1 },1.5f);
 	std::vector<std::shared_ptr<Material>> materials;
 	materials.push_back(red);
 	materials.push_back(green);
@@ -50,11 +51,20 @@ int main(int argc, char* argv[])
 
 	auto plane = std::make_unique<Plane>(glm::vec3{ 0, -3, 0 }, glm::vec3{ 0, 1, 0 }, gray);
 	scene.AddObject(std::move(plane));
+
+	auto mainsphere = std::make_unique<Sphere>(glm::vec3{ 0, 0, 0 }, 3.0f, blue);
+	scene.AddObject(std::move(mainsphere));
+	auto mainsphere2 = std::make_unique<Sphere>(glm::vec3{ 10, 0, 10 }, 3.0f, green);
+	scene.AddObject(std::move(mainsphere2));
+	auto mainsphere3 = std::make_unique<Sphere>(glm::vec3{ -10, 0, -10 }, 3.0f, red);
+	scene.AddObject(std::move(mainsphere3));
+
 	
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < 12; i++) {
 		auto object = std::make_unique<Sphere>(random(glm::vec3{ -10 }, glm::vec3{ 10 }), randomf(0.2f, 3.0f), materials[random(0, (int)materials.size())]);
 		scene.AddObject(std::move(object));
 	}
+	scene.Render(framebuffer, camera, 20, 30);
 	
 	bool quit = false;
 	while (!quit)
@@ -73,8 +83,9 @@ int main(int argc, char* argv[])
 			}
 		}
 		//framebuffer.Clear(ColorConvert(color4_t{ 0,0.25f,0,255 }));
+		framebuffer.Update();
 
-		scene.Render(framebuffer, camera);
+		//scene.Render(framebuffer, camera, 2, 4);
 		framebuffer.Update();
 
 		renderer = framebuffer;
