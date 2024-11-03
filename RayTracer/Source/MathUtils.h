@@ -24,7 +24,7 @@ inline bool Refract(const glm::vec3& i, const glm::vec3& n, float ri, glm::vec3&
 
 	float cosine = glm::dot(ni, n);
 
-	float discriminant = 1 - (ri * ri) + (1 - cosine * cosine);
+	float discriminant = 1 - (ri * ri) * (1 - cosine * cosine);
 	if (discriminant > 0) {
 		//bruh
 		refract = ri * (ni - (n * cosine)) - (n * glm::sqrt(discriminant));

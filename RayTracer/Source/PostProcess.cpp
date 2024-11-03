@@ -195,7 +195,7 @@ void PostProcess::Edge(std::vector<color_t>& buffer, int w, int h, int threshold
 				v += pixel.r * vkern[iy][ix];
 			}
 		}
-		int m = std::sqrt(h * h + v * v);
+		int m = (int)std::sqrt(h * h + v * v);
 		m = (m >= threshold) ? m : 0;
 
 		uint8_t c = std::clamp(m, 0, 255);

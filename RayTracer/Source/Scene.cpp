@@ -15,7 +15,7 @@ void Scene::Render(class Framebuffer& framebuffer, const class Camera& camera, i
 			{
 				glm::vec2 pixel{ x, y };
 				//add a random value to the pixel (0-1)
-				pixel += glm::vec2{ random(0, 1), random(0, 1)};
+				pixel += glm::vec2{ random(-1, 1), random(-1, 1)};
 				//normalize the pixel value
 				glm::vec2 point = pixel / glm::vec2{ framebuffer.m_width, framebuffer.m_height };
 				//flip the y value (bottom = 0, top = 1)
