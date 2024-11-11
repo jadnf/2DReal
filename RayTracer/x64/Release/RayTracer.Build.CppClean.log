@@ -8,6 +8,7 @@ c:\neumontworkspace\graphics programming\2d\raytracer\x64\release\postprocess.ob
 c:\neumontworkspace\graphics programming\2d\raytracer\x64\release\plane.obj
 c:\neumontworkspace\graphics programming\2d\raytracer\x64\release\model.obj
 c:\neumontworkspace\graphics programming\2d\raytracer\x64\release\material.obj
+c:\neumontworkspace\graphics programming\2d\raytracer\x64\release\main.obj
 c:\neumontworkspace\graphics programming\2d\raytracer\x64\release\input.obj
 c:\neumontworkspace\graphics programming\2d\raytracer\x64\release\image.obj
 c:\neumontworkspace\graphics programming\2d\raytracer\x64\release\framebuffer.obj
@@ -15,7 +16,9 @@ c:\neumontworkspace\graphics programming\2d\raytracer\x64\release\etime.obj
 c:\neumontworkspace\graphics programming\2d\raytracer\x64\release\color.obj
 c:\neumontworkspace\graphics programming\2d\raytracer\x64\release\camera.obj
 c:\neumontworkspace\graphics programming\2d\raytracer\x64\release\actor.obj
-c:\neumontworkspace\graphics programming\2d\x64\release\raytracer.exe
 c:\neumontworkspace\graphics programming\2d\raytracer\x64\release\raytracer.tlog\cl.command.1.tlog
 c:\neumontworkspace\graphics programming\2d\raytracer\x64\release\raytracer.tlog\cl.read.1.tlog
 c:\neumontworkspace\graphics programming\2d\raytracer\x64\release\raytracer.tlog\cl.write.1.tlog
+c:\neumontworkspace\graphics programming\2d\raytracer\x64\release\raytracer.tlog\link.command.1.tlog
+c:\neumontworkspace\graphics programming\2d\raytracer\x64\release\raytracer.tlog\link.read.1.tlog
+c:\neumontworkspace\graphics programming\2d\raytracer\x64\release\raytracer.tlog\link.write.1.tlog

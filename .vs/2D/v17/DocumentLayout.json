@@ -7,16 +7,8 @@
       "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Tracer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Tracer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,45 +18,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Tracer.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Tracer.cpp",
-              "RelativeDocumentMoniker": "RayTracer\\Source\\Tracer.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Tracer.cpp",
-              "RelativeToolTip": "RayTracer\\Source\\Tracer.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACQAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-03T22:20:21.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Model.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Model.h",
-              "RelativeDocumentMoniker": "RayTracer\\Source\\Model.h",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Model.h",
-              "RelativeToolTip": "RayTracer\\Source\\Model.h",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Title": "Color.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Color.h",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\Color.h",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Color.h",
+              "RelativeToolTip": "RayTracer\\Source\\Color.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T22:11:57.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Model.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Model.cpp",
-              "RelativeDocumentMoniker": "RayTracer\\Source\\Model.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Model.cpp",
-              "RelativeToolTip": "RayTracer\\Source\\Model.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-03T22:11:50.86Z",
+              "WhenOpened": "2024-11-09T22:20:21.38Z",
               "EditorCaption": ""
             },
             {
@@ -75,9 +41,9 @@
               "RelativeDocumentMoniker": "RayTracer\\Source\\Main.cpp",
               "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Main.cpp",
               "RelativeToolTip": "RayTracer\\Source\\Main.cpp",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFkAAAAmAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-03T22:10:18.667Z",
+              "WhenOpened": "2024-11-09T22:01:43.527Z",
               "EditorCaption": ""
             }
           ]
