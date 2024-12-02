@@ -9,14 +9,14 @@
 class Camera;
 
 using vertex_t = glm::vec3;
-using vertices_t = std::vector<vertex_t>;
+using vertexbuffer_t = std::vector<vertex_t>;
 
 class Model : public SceneObject{
 public:
 	Model() = default;
 	Model(std::shared_ptr<Material> material) : SceneObject{ material } {}
 	Model(const Transform& transform, std::shared_ptr<Material> material) : SceneObject{ transform, material } {}
-	Model(const vertices_t& vertices, std::shared_ptr<Material> material) : m_vertices{ vertices }, SceneObject{ material } {}
+	Model(const vertexbuffer_t& vertices, std::shared_ptr<Material> material) : m_vb{ vertices }, SceneObject{ material } {}
 	Model(const std::string& filename, std::shared_ptr<Material> material) : SceneObject{ material } {
 		Load(filename);
 	}
@@ -31,8 +31,8 @@ public:
 	void SetColor(const color_t& color);
 	void Draw(class Framebuffer& framebuffer, const glm::mat4& model, const Camera& camera);
 private:
-	vertices_t m_vertices;
-	vertices_t m_local_vertices;
+	vertexbuffer_t m_vb;
+	vertexbuffer_t m_local_vertices;
 	color_t m_color = { 0,0,0 };
 	glm::vec3 m_center{ 0 };
 	float m_radius{ 0 };

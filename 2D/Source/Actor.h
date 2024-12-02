@@ -6,8 +6,8 @@
 class Actor {
 public:
 	Actor(const Transform& transform, std::shared_ptr<Model> model) : m_transform{transform}, m_model{model} {}
-	void Draw(class Framebuffer& framebuffer, const Camera& camera);
-	void SetColor(const color_t& color);
+	void Draw();
+	Transform& GetTransform() { return m_transform; };
 
 private:
 	Transform m_transform;
