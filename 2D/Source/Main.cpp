@@ -55,7 +55,7 @@ int main(int argc, char* argv[])
 	//vertices_t vertices = { {-5,5,0}, {5,5, 0}, {-5,-5,0} };
 	//Model model(vertices, {0, 255,0, 255});
 	auto model = std::make_shared<Model>();
-	model->Load("models/sphere.obj");
+	model->Load("models/ogre.obj");
 	model->SetColor({ 0,0,1,1 });
 	
 
