@@ -41,13 +41,20 @@ int main(int argc, char* argv[])
 
 	Framebuffer framebuffer(renderer, 800, 600);
 
+	// materials
+	std::shared_ptr<material_t> material = std::make_shared<material_t>();
+	material->albedo = color3_t{ 0, 0, 1 };
+	material->specular = color3_t{ 1 };
+	material->shininess = 32.0f;
+
 	//shader
-	VertexShader::uniforms.view = camera.GetView();
-	VertexShader::uniforms.projection = camera.GetProjection();
-	VertexShader::uniforms.ambient = color3_t{ 0.1f };
-	VertexShader::uniforms.light.position = glm::vec3{ -6, 10, 1 };
-	VertexShader::uniforms.light.direction = glm::vec3{ 0, -1, 0 }; // light pointing down
-	VertexShader::uniforms.light.color = color3_t{ 1 }; // white light
+	Shader::uniforms.view = camera.GetView();
+	Shader::uniforms.projection = camera.GetProjection();
+	Shader::uniforms.ambient = color3_t{ 0.1f };
+
+	Shader::uniforms.light.position = glm::vec3{ -6, 10, 1 };
+	Shader::uniforms.light.direction = glm::vec3{ 0, -1, 0 }; // light pointing down
+	Shader::uniforms.light.color = color3_t{ 1 }; // white light
 
 	Shader::framebuffer = &framebuffer;
 
@@ -55,7 +62,7 @@ int main(int argc, char* argv[])
 	//vertices_t vertices = { {-5,5,0}, {5,5, 0}, {-5,-5,0} };
 	//Model model(vertices, {0, 255,0, 255});
 	auto model = std::make_shared<Model>();
-	model->Load("models/ogre.obj");
+	model->Load("models/cube.obj");
 	model->SetColor({ 0,0,1,1 });
 	
 
@@ -63,9 +70,10 @@ int main(int argc, char* argv[])
 
 	std::vector<std::unique_ptr<Actor>> actors;
 
-	Transform transform{ glm::vec3{0},glm::vec3{0},glm::vec3{5} };
-	std::unique_ptr<Actor> actor = std::make_unique<Actor>(transform, model);
+	Transform transform{ glm::vec3{0, 0, 0},glm::vec3{0},glm::vec3{5} };
+	std::unique_ptr<Actor> actor = std::make_unique<Actor>(transform, model, material);
 	actors.push_back(std::move(actor));
+	
 
 	/*Transform transform{ {0,0,0}, glm::vec3{0,0,45}, glm::vec3{3} };
 	Actor actor(transform, model);*/
@@ -134,7 +142,7 @@ int main(int argc, char* argv[])
 			input.SetRelativeMode(false);
 		}
 		camera.SetView(cameraTransform.position, cameraTransform.position + cameraTransform.GetForward());
-		VertexShader::uniforms.view = camera.GetView();
+		Shader::uniforms.view = camera.GetView();
 
 		for (auto& actor : actors) {
 			actor->GetTransform().rotation.y += time.GetDeltaTime() * 90;

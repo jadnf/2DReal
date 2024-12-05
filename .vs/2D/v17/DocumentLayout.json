@@ -3,72 +3,60 @@
   "WorkspaceRootPath": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Rasterizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Rasterizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Material.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10ADFA4D-94BC-4438-85B3-54CE4BF42FBA}|RayTracer\\RayTracer.vcxproj|solutionrelative:RayTracer\\Source\\Material.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Framebuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Framebuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\PostProcess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\PostProcess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\FragmentShader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\FragmentShader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Framebuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Framebuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\FragmentShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\FragmentShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Rasterizer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Rasterizer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\MathUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\MathUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\VertexShader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\VertexShader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\VertexShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\VertexShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Light.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Light.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Rasterizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Rasterizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\VertexShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\VertexShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Rasterizer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Rasterizer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\VertexShader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\VertexShader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Material.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Material.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{671070DE-F7A6-4C63-8B32-2B12C4556DF0}|2D\\2D.vcxproj|solutionrelative:2D\\Source\\Actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,189 +66,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Light.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Light.h",
-              "RelativeDocumentMoniker": "2D\\Light.h",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Light.h",
-              "RelativeToolTip": "2D\\Light.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-02T17:40:57.296Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PostProcess.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\PostProcess.cpp",
-              "RelativeDocumentMoniker": "2D\\Source\\PostProcess.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\PostProcess.cpp",
-              "RelativeToolTip": "2D\\Source\\PostProcess.cpp",
-              "ViewState": "AQIAALUAAAAAAAAAAAAlwMMAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-03T18:32:27.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Renderer.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Renderer.cpp",
-              "RelativeDocumentMoniker": "2D\\Source\\Renderer.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Renderer.cpp",
-              "RelativeToolTip": "2D\\Source\\Renderer.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-03T18:24:18.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Rasterizer.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Rasterizer.h",
-              "RelativeDocumentMoniker": "2D\\Source\\Rasterizer.h",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Rasterizer.h",
-              "RelativeToolTip": "2D\\Source\\Rasterizer.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-03T18:24:08.059Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Rasterizer.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Rasterizer.cpp",
-              "RelativeDocumentMoniker": "2D\\Source\\Rasterizer.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Rasterizer.cpp",
-              "RelativeToolTip": "2D\\Source\\Rasterizer.cpp",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-03T17:51:32.969Z",
+              "Title": "Material.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Material.h",
+              "RelativeDocumentMoniker": "RayTracer\\Source\\Material.h",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\RayTracer\\Source\\Material.h",
+              "RelativeToolTip": "RayTracer\\Source\\Material.h",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-05T21:24:11.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MathUtils.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\MathUtils.h",
-              "RelativeDocumentMoniker": "2D\\Source\\MathUtils.h",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\MathUtils.h",
-              "RelativeToolTip": "2D\\Source\\MathUtils.h",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACUAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-03T18:07:03.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Framebuffer.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Framebuffer.h",
-              "RelativeDocumentMoniker": "2D\\Source\\Framebuffer.h",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Framebuffer.h",
-              "RelativeToolTip": "2D\\Source\\Framebuffer.h",
-              "ViewState": "AQIAABQAAAAAAAAAAAAlwCEAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-03T17:48:40.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Framebuffer.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Framebuffer.cpp",
-              "RelativeDocumentMoniker": "2D\\Source\\Framebuffer.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Framebuffer.cpp",
-              "RelativeToolTip": "2D\\Source\\Framebuffer.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACwAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-03T17:44:34.966Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Image.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Image.h",
-              "RelativeDocumentMoniker": "2D\\Source\\Image.h",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Image.h",
-              "RelativeToolTip": "2D\\Source\\Image.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-03T17:48:40.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Shader.h",
               "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Shader.h",
               "RelativeDocumentMoniker": "2D\\Source\\Shader.h",
               "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Shader.h",
               "RelativeToolTip": "2D\\Source\\Shader.h",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-02T18:41:26.086Z"
+              "WhenOpened": "2024-12-04T17:49:02.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Shader.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Shader.cpp",
-              "RelativeDocumentMoniker": "2D\\Source\\Shader.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Shader.cpp",
-              "RelativeToolTip": "2D\\Source\\Shader.cpp",
-              "ViewState": "AQIAABoAAAAAAAAAAAAcwCIAAAADAAAA",
+              "DocumentIndex": 10,
+              "Title": "Material.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Material.h",
+              "RelativeDocumentMoniker": "2D\\Source\\Material.h",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Material.h",
+              "RelativeToolTip": "2D\\Source\\Material.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-04T18:15:40.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Framebuffer.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Framebuffer.cpp",
+              "RelativeDocumentMoniker": "2D\\Source\\Framebuffer.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Framebuffer.cpp",
+              "RelativeToolTip": "2D\\Source\\Framebuffer.cpp",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACAAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-02T17:49:02.238Z"
+              "WhenOpened": "2024-12-04T18:22:27.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "Actor.h",
               "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Actor.h",
               "RelativeDocumentMoniker": "2D\\Source\\Actor.h",
               "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Actor.h",
               "RelativeToolTip": "2D\\Source\\Actor.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAACrAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-02T18:04:59.512Z"
+              "WhenOpened": "2024-12-04T18:18:12.536Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Color.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Color.h",
-              "RelativeDocumentMoniker": "2D\\Source\\Color.h",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Color.h",
-              "RelativeToolTip": "2D\\Source\\Color.h",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-02T17:53:34.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Main.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Main.cpp",
-              "RelativeDocumentMoniker": "2D\\Source\\Main.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Main.cpp",
-              "RelativeToolTip": "2D\\Source\\Main.cpp",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADkAAAAZAAAA",
+              "DocumentIndex": 4,
+              "Title": "Rasterizer.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Rasterizer.cpp",
+              "RelativeDocumentMoniker": "2D\\Source\\Rasterizer.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Rasterizer.cpp",
+              "RelativeToolTip": "2D\\Source\\Rasterizer.cpp",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAB8AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-02T17:48:04.065Z"
+              "WhenOpened": "2024-12-04T18:03:38.652Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "VertexShader.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\VertexShader.h",
-              "RelativeDocumentMoniker": "2D\\Source\\VertexShader.h",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\VertexShader.h",
-              "RelativeToolTip": "2D\\Source\\VertexShader.h",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAQAAAASAAAA",
+              "DocumentIndex": 8,
+              "Title": "Rasterizer.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Rasterizer.h",
+              "RelativeDocumentMoniker": "2D\\Source\\Rasterizer.h",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Rasterizer.h",
+              "RelativeToolTip": "2D\\Source\\Rasterizer.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-02T17:41:47.937Z"
+              "WhenOpened": "2024-12-04T18:03:32.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FragmentShader.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\FragmentShader.cpp",
+              "RelativeDocumentMoniker": "2D\\Source\\FragmentShader.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\FragmentShader.cpp",
+              "RelativeToolTip": "2D\\Source\\FragmentShader.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-04T17:54:42.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FragmentShader.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\FragmentShader.h",
+              "RelativeDocumentMoniker": "2D\\Source\\FragmentShader.h",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\FragmentShader.h",
+              "RelativeToolTip": "2D\\Source\\FragmentShader.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-04T17:54:40.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Actor.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Actor.cpp",
+              "RelativeDocumentMoniker": "2D\\Source\\Actor.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Actor.cpp",
+              "RelativeToolTip": "2D\\Source\\Actor.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-04T17:53:19.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Shader.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Shader.cpp",
+              "RelativeDocumentMoniker": "2D\\Source\\Shader.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Shader.cpp",
+              "RelativeToolTip": "2D\\Source\\Shader.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-04T17:50:20.237Z"
             },
             {
               "$type": "Document",
@@ -270,21 +210,33 @@
               "RelativeDocumentMoniker": "2D\\Source\\VertexShader.cpp",
               "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\VertexShader.cpp",
               "RelativeToolTip": "2D\\Source\\VertexShader.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA9AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-02T17:37:17.182Z"
+              "WhenOpened": "2024-12-04T17:50:04.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Model.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Model.cpp",
-              "RelativeDocumentMoniker": "2D\\Source\\Model.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Model.cpp",
-              "RelativeToolTip": "2D\\Source\\Model.cpp",
-              "ViewState": "AQIAABQAAAAAAAAAAAAqwCEAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "VertexShader.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\VertexShader.h",
+              "RelativeDocumentMoniker": "2D\\Source\\VertexShader.h",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\VertexShader.h",
+              "RelativeToolTip": "2D\\Source\\VertexShader.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-04T17:47:40.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Main.cpp",
+              "RelativeDocumentMoniker": "2D\\Source\\Main.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\Graphics Programming\\2D\\2D\\Source\\Main.cpp",
+              "RelativeToolTip": "2D\\Source\\Main.cpp",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAADoAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-02T17:36:27.166Z"
+              "WhenOpened": "2024-12-04T17:43:51.057Z"
             }
           ]
         }

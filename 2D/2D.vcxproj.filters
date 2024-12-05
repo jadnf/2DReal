@@ -102,6 +102,9 @@
     <ClInclude Include="Light.h">
       <Filter>Header</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Material.h">
+      <Filter>Header</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header">
